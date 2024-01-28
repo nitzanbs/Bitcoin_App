@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+}
+.cryptoVortex{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #f3f3f3;
+    text-shadow: 1px 2px #5b10d3;
+}
+
+@keyframes rotateLayers {
+    0% {
+        transform: rotateX(540deg) rotateY(270deg) rotateZ(540deg);
+    }
+
+    100% {
+        transform: rotateX(720deg) rotateY(360deg) rotateZ(720deg);
+    }
+}
+
+.DivForSignOutBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.pNav{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #5b10d3;
+}
+
+.pNavUser{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #f1f1f1;
+    text-align: center;
+
+}

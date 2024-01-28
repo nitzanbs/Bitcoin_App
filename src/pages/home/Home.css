@@ -1,0 +1,53 @@
+.coinCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 4rem;
+    column-gap: 3rem;
+    align-content: center;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+body{
+    background-color: #211f1f;
+    
+}
+
+.homeH1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5b10d3,#35b8b8, #5a08d5);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    padding: 5%;
+    text-align: center;
+    
+}
+
+.typing-text {
+    display: inline-block;
+    overflow: hidden; /* Hide overflowing characters */
+    white-space: nowrap; /* Keep the text on one line */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fff; } /* White cursor */
+}
+

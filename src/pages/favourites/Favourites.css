@@ -1,0 +1,28 @@
+.coinCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 2rem;
+    column-gap: 0.5rem;
+    align-content: center;
+
+    
+
+}
+
+body{
+    background-color: rgb(33, 31, 31);
+}
+
+.h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5b10d3,#35b8b8, #5a08d5);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    padding: 5%;
+    
+}

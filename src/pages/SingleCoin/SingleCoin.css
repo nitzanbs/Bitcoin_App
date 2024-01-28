@@ -1,0 +1,56 @@
+.coinCardSingle{
+    border: 2px solid #5b10d3;
+    padding: 4%;
+    width: 45rem;
+    height:45rem;
+    border-radius: 50%;
+    box-shadow: 2px 1px 2px 1px #9bbbe5;
+    color: #dff6f5;
+    font-size: 1.5rem;
+
+}
+
+.coinCardSingle:hover {
+    animation: rotateCoins 2s ease-in-out 1;
+
+}
+
+.coinNameSingle {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5b10d3,#35b8b8 , #5a08d5);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    
+}
+
+
+
+
+
+.dollarSingle{
+    color: #8ef346;
+    font-size: 1.5rem;
+}
+
+
+.spanSingle{
+    text-decoration: underline;
+}
+
+
+
+
+
+@keyframes rotateCoins {
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+

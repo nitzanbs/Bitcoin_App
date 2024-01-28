@@ -1,0 +1,94 @@
+/* בקובץ CSS שולב באותו פרויקט */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(33, 31, 31);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff5f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #5b10d3,#35b8b8, #5a08d5);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: #fff; /* צבע הטקסט תמיד לבן */
+    background: linear-gradient(45deg, #5b10d3, #46327e, #21c2c2);
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-position: 100% 0;
+    color: #000000;
+    border: 2px solid #dff6f5;
+}
+
+.AuthMsg{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.AuthMsg:hover{
+    text-decoration: underline;
+
+}
+
+.toggleBtn{
+    color: #dff6f5;
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.toggleBtn:hover{
+    text-decoration: underline;
+
+
+}

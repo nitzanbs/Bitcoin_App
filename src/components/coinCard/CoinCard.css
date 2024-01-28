@@ -1,0 +1,83 @@
+.coinCard{
+    border: 3px solid #5b10d3;
+    padding: 4%;
+    width: 22rem;
+    height:22rem;
+    border-radius: 50%;
+    box-shadow: 2px 1px 2px 1px #9bbbe5;
+    color: #dff6f5;
+    font-size: 1.2rem;
+    transition: transform 0.5s ease-in-out;
+    animation: rotateCoins 2s ease-in-out 1;
+    text-align: center;
+
+
+}
+
+.coinCard:hover {
+    transform: scale(1.1) rotatey(10deg);
+    animation: rotateCoins 2s ease-in-out 1;
+
+}
+
+.coinName {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5b10d3,#35b8b8 , #5a08d5);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: #fff; /* צבע הטקסט תמיד לבן */
+    background: linear-gradient(45deg, #5b10d3, #46327e, #21c2c2);
+    transition: background 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    color: #000000;
+    border: 2px solid #dff6f5;
+}
+
+.dollar{
+    color: #8ef346;
+    font-size: 1.5rem;
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+@keyframes rotateCoins {
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+
+
+
